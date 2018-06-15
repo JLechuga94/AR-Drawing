@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DE8221320D37DBE0076C17B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE8221220D37DBE0076C17B /* AppDelegate.swift */; };
+		7DE8221520D37DBE0076C17B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE8221420D37DBE0076C17B /* ViewController.swift */; };
+		7DE8221820D37DBE0076C17B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DE8221620D37DBE0076C17B /* Main.storyboard */; };
+		7DE8221B20D37DBE0076C17B /* AR_Drawing.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7DE8221920D37DBE0076C17B /* AR_Drawing.xcdatamodeld */; };
+		7DE8221D20D37DBF0076C17B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DE8221C20D37DBF0076C17B /* Assets.xcassets */; };
+		7DE8222020D37DBF0076C17B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DE8221E20D37DBF0076C17B /* LaunchScreen.storyboard */; };
+		7DE8222B20D37DBF0076C17B /* AR_DrawingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE8222A20D37DBF0076C17B /* AR_DrawingTests.swift */; };
+		7DE8223620D37DBF0076C17B /* AR_DrawingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE8223520D37DBF0076C17B /* AR_DrawingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7DE8222720D37DBF0076C17B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DE8220720D37DBE0076C17B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DE8220E20D37DBE0076C17B;
+			remoteInfo = AR_Drawing;
+		};
+		7DE8223220D37DBF0076C17B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DE8220720D37DBE0076C17B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DE8220E20D37DBE0076C17B;
+			remoteInfo = AR_Drawing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7DE8220F20D37DBE0076C17B /* AR_Drawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AR_Drawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DE8221220D37DBE0076C17B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7DE8221420D37DBE0076C17B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7DE8221720D37DBE0076C17B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7DE8221A20D37DBE0076C17B /* AR_Drawing.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AR_Drawing.xcdatamodel; sourceTree = "<group>"; };
+		7DE8221C20D37DBF0076C17B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DE8221F20D37DBF0076C17B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7DE8222120D37DBF0076C17B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DE8222620D37DBF0076C17B /* AR_DrawingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AR_DrawingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DE8222A20D37DBF0076C17B /* AR_DrawingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_DrawingTests.swift; sourceTree = "<group>"; };
+		7DE8222C20D37DBF0076C17B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DE8223120D37DBF0076C17B /* AR_DrawingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AR_DrawingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DE8223520D37DBF0076C17B /* AR_DrawingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_DrawingUITests.swift; sourceTree = "<group>"; };
+		7DE8223720D37DBF0076C17B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DE8220C20D37DBE0076C17B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DE8222320D37DBF0076C17B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DE8222E20D37DBF0076C17B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DE8220620D37DBE0076C17B = {
+			isa = PBXGroup;
+			children = (
+				7DE8221120D37DBE0076C17B /* AR_Drawing */,
+				7DE8222920D37DBF0076C17B /* AR_DrawingTests */,
+				7DE8223420D37DBF0076C17B /* AR_DrawingUITests */,
+				7DE8221020D37DBE0076C17B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DE8221020D37DBE0076C17B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DE8220F20D37DBE0076C17B /* AR_Drawing.app */,
+				7DE8222620D37DBF0076C17B /* AR_DrawingTests.xctest */,
+				7DE8223120D37DBF0076C17B /* AR_DrawingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DE8221120D37DBE0076C17B /* AR_Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				7DE8221220D37DBE0076C17B /* AppDelegate.swift */,
+				7DE8221420D37DBE0076C17B /* ViewController.swift */,
+				7DE8221620D37DBE0076C17B /* Main.storyboard */,
+				7DE8221C20D37DBF0076C17B /* Assets.xcassets */,
+				7DE8221E20D37DBF0076C17B /* LaunchScreen.storyboard */,
+				7DE8222120D37DBF0076C17B /* Info.plist */,
+				7DE8221920D37DBE0076C17B /* AR_Drawing.xcdatamodeld */,
+			);
+			path = AR_Drawing;
+			sourceTree = "<group>";
+		};
+		7DE8222920D37DBF0076C17B /* AR_DrawingTests */ = {
+			isa = PBXGroup;
+			children = (
+				7DE8222A20D37DBF0076C17B /* AR_DrawingTests.swift */,
+				7DE8222C20D37DBF0076C17B /* Info.plist */,
+			);
+			path = AR_DrawingTests;
+			sourceTree = "<group>";
+		};
+		7DE8223420D37DBF0076C17B /* AR_DrawingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7DE8223520D37DBF0076C17B /* AR_DrawingUITests.swift */,
+				7DE8223720D37DBF0076C17B /* Info.plist */,
+			);
+			path = AR_DrawingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DE8220E20D37DBE0076C17B /* AR_Drawing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DE8223A20D37DBF0076C17B /* Build configuration list for PBXNativeTarget "AR_Drawing" */;
+			buildPhases = (
+				7DE8220B20D37DBE0076C17B /* Sources */,
+				7DE8220C20D37DBE0076C17B /* Frameworks */,
+				7DE8220D20D37DBE0076C17B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AR_Drawing;
+			productName = AR_Drawing;
+			productReference = 7DE8220F20D37DBE0076C17B /* AR_Drawing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7DE8222520D37DBF0076C17B /* AR_DrawingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DE8223D20D37DBF0076C17B /* Build configuration list for PBXNativeTarget "AR_DrawingTests" */;
+			buildPhases = (
+				7DE8222220D37DBF0076C17B /* Sources */,
+				7DE8222320D37DBF0076C17B /* Frameworks */,
+				7DE8222420D37DBF0076C17B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DE8222820D37DBF0076C17B /* PBXTargetDependency */,
+			);
+			name = AR_DrawingTests;
+			productName = AR_DrawingTests;
+			productReference = 7DE8222620D37DBF0076C17B /* AR_DrawingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7DE8223020D37DBF0076C17B /* AR_DrawingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DE8224020D37DBF0076C17B /* Build configuration list for PBXNativeTarget "AR_DrawingUITests" */;
+			buildPhases = (
+				7DE8222D20D37DBF0076C17B /* Sources */,
+				7DE8222E20D37DBF0076C17B /* Frameworks */,
+				7DE8222F20D37DBF0076C17B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DE8223320D37DBF0076C17B /* PBXTargetDependency */,
+			);
+			name = AR_DrawingUITests;
+			productName = AR_DrawingUITests;
+			productReference = 7DE8223120D37DBF0076C17B /* AR_DrawingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DE8220720D37DBE0076C17B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Julian Lechuga Lopez";
+				TargetAttributes = {
+					7DE8220E20D37DBE0076C17B = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					7DE8222520D37DBF0076C17B = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 7DE8220E20D37DBE0076C17B;
+					};
+					7DE8223020D37DBF0076C17B = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 7DE8220E20D37DBE0076C17B;
+					};
+				};
+			};
+			buildConfigurationList = 7DE8220A20D37DBE0076C17B /* Build configuration list for PBXProject "AR_Drawing" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DE8220620D37DBE0076C17B;
+			productRefGroup = 7DE8221020D37DBE0076C17B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DE8220E20D37DBE0076C17B /* AR_Drawing */,
+				7DE8222520D37DBF0076C17B /* AR_DrawingTests */,
+				7DE8223020D37DBF0076C17B /* AR_DrawingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DE8220D20D37DBE0076C17B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DE8222020D37DBF0076C17B /* LaunchScreen.storyboard in Resources */,
+				7DE8221D20D37DBF0076C17B /* Assets.xcassets in Resources */,
+				7DE8221820D37DBE0076C17B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DE8222420D37DBF0076C17B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DE8222F20D37DBF0076C17B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DE8220B20D37DBE0076C17B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DE8221B20D37DBE0076C17B /* AR_Drawing.xcdatamodeld in Sources */,
+				7DE8221520D37DBE0076C17B /* ViewController.swift in Sources */,
+				7DE8221320D37DBE0076C17B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DE8222220D37DBF0076C17B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DE8222B20D37DBF0076C17B /* AR_DrawingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DE8222D20D37DBF0076C17B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DE8223620D37DBF0076C17B /* AR_DrawingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7DE8222820D37DBF0076C17B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DE8220E20D37DBE0076C17B /* AR_Drawing */;
+			targetProxy = 7DE8222720D37DBF0076C17B /* PBXContainerItemProxy */;
+		};
+		7DE8223320D37DBF0076C17B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DE8220E20D37DBE0076C17B /* AR_Drawing */;
+			targetProxy = 7DE8223220D37DBF0076C17B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7DE8221620D37DBE0076C17B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DE8221720D37DBE0076C17B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7DE8221E20D37DBF0076C17B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DE8221F20D37DBF0076C17B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DE8223820D37DBF0076C17B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7DE8223920D37DBF0076C17B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DE8223B20D37DBF0076C17B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 237J8UY6UT;
+				INFOPLIST_FILE = AR_Drawing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KIT.AR-Drawing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7DE8223C20D37DBF0076C17B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 237J8UY6UT;
+				INFOPLIST_FILE = AR_Drawing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KIT.AR-Drawing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7DE8223E20D37DBF0076C17B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 237J8UY6UT;
+				INFOPLIST_FILE = AR_DrawingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KIT.AR-DrawingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AR_Drawing.app/AR_Drawing";
+			};
+			name = Debug;
+		};
+		7DE8223F20D37DBF0076C17B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 237J8UY6UT;
+				INFOPLIST_FILE = AR_DrawingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KIT.AR-DrawingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AR_Drawing.app/AR_Drawing";
+			};
+			name = Release;
+		};
+		7DE8224120D37DBF0076C17B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 237J8UY6UT;
+				INFOPLIST_FILE = AR_DrawingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KIT.AR-DrawingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AR_Drawing;
+			};
+			name = Debug;
+		};
+		7DE8224220D37DBF0076C17B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 237J8UY6UT;
+				INFOPLIST_FILE = AR_DrawingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KIT.AR-DrawingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AR_Drawing;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DE8220A20D37DBE0076C17B /* Build configuration list for PBXProject "AR_Drawing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DE8223820D37DBF0076C17B /* Debug */,
+				7DE8223920D37DBF0076C17B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DE8223A20D37DBF0076C17B /* Build configuration list for PBXNativeTarget "AR_Drawing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DE8223B20D37DBF0076C17B /* Debug */,
+				7DE8223C20D37DBF0076C17B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DE8223D20D37DBF0076C17B /* Build configuration list for PBXNativeTarget "AR_DrawingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DE8223E20D37DBF0076C17B /* Debug */,
+				7DE8223F20D37DBF0076C17B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DE8224020D37DBF0076C17B /* Build configuration list for PBXNativeTarget "AR_DrawingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DE8224120D37DBF0076C17B /* Debug */,
+				7DE8224220D37DBF0076C17B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7DE8221920D37DBE0076C17B /* AR_Drawing.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7DE8221A20D37DBE0076C17B /* AR_Drawing.xcdatamodel */,
+			);
+			currentVersion = 7DE8221A20D37DBE0076C17B /* AR_Drawing.xcdatamodel */;
+			path = AR_Drawing.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7DE8220720D37DBE0076C17B /* Project object */;
+}
