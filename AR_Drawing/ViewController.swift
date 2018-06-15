@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import ARKit
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -16,5 +16,6 @@ class ViewController: UIViewController {
     }
 
 
+    @IBOutlet weak var sceneView: UIButton!
 }
 
